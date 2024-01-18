@@ -1,0 +1,24 @@
+<div class="btn-group">
+    <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Conciliação Arrecadação
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><button [routerLink]="['/conciliacao-arrecadacao']" class="dropdown-item" type="button">Pesquisa de Lançamentos para Conciliação</button></li>   
+
+    </ul>
+
+    <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Relatórios
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><button [routerLink]="['/relatorio-validacao-arrecadacao']" class="dropdown-item" type="button">Relatório de Validação Arrecadação</button></li>   
+    </ul>
+
+    <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Relatórios Mensais
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><button [routerLink]="['/contribuicao-recebida']" class="dropdown-item" type="button">Contribuição Recebidas</button></li>   
+        <li><button [routerLink]="['/processo-mensal']" class="dropdown-item" type="button">Liberação de Processos Mensais</button></li>   
+    </ul>
+</div>
